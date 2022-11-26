@@ -72,6 +72,7 @@
   }
 
   .third h1{
+    font-size: 50px;
     text-align: center;
   }
   .fourth{
@@ -106,11 +107,19 @@
     float: left;
  }
  .text p{
-    margin: 30px;
+    margin: 65px;
     width: 80%;
-    text-align: left;
+    text-align: justify;
  }
- .text img{
+
+ .text img {
+    padding: 32px;
     width: 80%;
     height: 500px;
- }
+  }
+  *{
+    font-family: serif;
+  }
+  .text h1{
+   text-align: center;
+  }

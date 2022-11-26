@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Castle Rock</title>
+  </head>
+  <body>
+    <div class="navba">
+      <a class="heading" href="https://www.castlerockits.com/">Home</a>
+      <a href="" class="heading">About</a>
+      <a onclick="myFunction()" href="" id="drop" class="heading">Our Design</a>
+      <!-- <button onclick="myFunction()" >Dropdown</button> -->
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#home">Buildings</a>
+        <a href="#about">Vills</a>
+        <a href="#contact">Apartments</a>
+      </div>
+      <img src="./images/CompanyLogo.jpeg" alt="Logo" width="70px" class="heading">
+      <a href="" class="heading">Gallery</a>
+      <a href="" class="heading">Contact</a>
+      <a href="" class="heading">Careers</a>
+    </div>
+    <div class="first">
+        <img src="./images/third1.jpeg" alt="second" id="myImage" class="second">
+    </div>
+    <div class="third">
+        <h1>Current Projects</h1>
+    </div>
+    <div class="fourth">      
+        <img src="./images/ii.jpeg" alt="" class="fou">
+        <img src="./images/iii.jpeg" alt="" class="fou">
+        <a href="https://prioritypixels.co.uk/web-design-social-media-marketing-newton-abbot-rugby-club/"><h5>View Deatils --></h5></a>
+        <a href="https://prioritypixels.co.uk/last-paddler-2022/"><h4>View Deatils --></h4></a>    
+    </div>
+    <div class="five">
+        <div class="text" id="ok1">
+            <h1>About the Founder</h1>
+            <p>-	The JWBC Jungle Walk Base Camp
+                Founder and intuitive, Sunil Fernandes is a born adventurer! His ventures from stepping out of the comfort of his home, he found himself at peace in nature. That’s how his adventure started. 
+                He is a profound follower of the famous Hunter, adventurer and writer – Kenneth Douglas Stewart Anderson! Just like Mr. Anderson, Sunil loves the jungles. The ever nurturing wildlife, the indigenous tribal people, the truth of untouched nature keeps calling for Sunil. 
+                His love for wildlife is such that there have been days where he has camped for several days to spot and track Elephants in the south Indian jungles. It was not long before he finally adopted an Elephant! 
+                From travelling through all means to staking out in the middle of the forest, from wildlife photography to coming face to face with a Black Panther, Sunil had seen it all. 
+                But wait, it didn’t stop there.
+                He decided to open up the “wildlife” experience to all! Can you imagine the love for Wildlife? Thus, his own company – JUNGLE WALKS BASE CAMP, came into existence. He wanted to open up the minds of people by letting them feel at peace amidst nature. He set up resorts, setup quality supply of food and water, worked with the tribal people to mark safe places to trek, he was completely into setting up the “Wildlife” experience for all the Workaholics. Word spread. 
+                And Jungle Walks Base Camp became weekend hotspots for the “Adventurer” inside of everyone.
+                This is not the story of one man. This is the story of WILDLIFE. That surrounds Me, You and Us.
+                </p>
+        </div>
+        <div class="text"><img class="ok" src="./images/ss.jpeg" alt=""></div>
+    </div>
+  
+
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
